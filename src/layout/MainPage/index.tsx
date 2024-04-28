@@ -2,18 +2,6 @@ import * as React from "react";
 import "./styles.css";
 import { CourseCard } from "../../additionalComponents/CourseCard";
 
-enum Categories {
-  ALL = "Все направления",
-  IT = "ИТ",
-  DEVELOPMENT = "Программирование",
-  DESIGN = "Дизайн",
-  MARKETING = "Маркетинг",
-  ANALYTICS = "Аналитика",
-  ML = "Машинное обучение",
-  TESTING = "Тестирование",
-  BLOCKCHAIN = "Blockchain",
-}
-
 export const MainPage = () => {
   const [data, setData] = React.useState([]);
   const lend = require("../../assets/lend.svg").default;
@@ -53,7 +41,6 @@ export const MainPage = () => {
       <img src={lend} alt="open door to your future" className="girlPicture" />
       <div className="coursesContainer">
         <h1>Курсы по всем направлениям</h1>
-        <div className="categories">{}</div>
         <div className="search">
           <input
             className="searchInput"
@@ -61,7 +48,6 @@ export const MainPage = () => {
             placeholder="Введите название программы"
           />
         </div>
-        {/* {data.map((course) => (<CourseCard title={course.title} salary={course.salary} description={course.decription/>))} */}
         <CourseCard
           title="Специалист по внедрению Искусственного Интеллекта"
           description="Лёгкий путь в Machine Learning и Data Science. Начни внедрять Искусственный Интеллект без кода и математики и зарабатывай уже во время обучения! "
