@@ -1,0 +1,99 @@
+:root {
+	--violet: #8D46F6;
+	--light-violet: #F4F5FA;
+}
+
+@font-face {
+	font-family: 'Intel medium';
+	src: url('../../assets/FontsFree-Net-Inter-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'Microsoft regular';
+	src: url('../../assets/microsoftsansserif.ttf');
+}
+
+.card {
+	background-color: var(--light-violet);
+	width: 450px;
+	height: 300px;
+	border-radius: 8%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.upperRow {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+
+.courseType {
+	padding: 6px 20px;
+	background-color: #E8E5F9;
+	border-radius: 10%;
+	color: var(--violet);
+	font-family: 'Microsoft regular';
+}
+
+.salary {
+	padding: 6px 20px;
+	background-color: #E8E5F9;
+	border-radius: 10%;
+	font-family: 'Microsoft regular';
+}
+
+.mainText{
+	height:max-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-bottom: 2px solid #333;
+}
+
+.title {
+	font-family: 'Intel medium';
+	letter-spacing: 0,5%;
+	font-size: 24px;;
+	font-weight: 300;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.description {
+	font-family: 'Microsoft regular';
+	font-size: 18px;;
+	padding-bottom: 30px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-top: 20px;
+}
+
+.leftSide {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+}
+
+.link {
+	color: var(--violet);
+	border-bottom: 1px solid var(--violet);
+	font-family: 'Microsoft regular';
+}
+
+.orangeText {
+	margin-top: 8px;
+	color: #E06800;
+	font-family: 'Microsoft regular';
+}
+
+.longevity {
+	font-family: 'Microsoft regular';
+}
