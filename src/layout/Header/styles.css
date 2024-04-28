@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Microsoft regular';
+	src: url('../../assets/microsoftsansserif.ttf');
+}
+
+@font-face {
+	font-family: 'Intel medium';
+	src: url('../../assets/FontsFree-Net-Inter-Medium.ttf');
+}
+
+.headerContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 60px;
+	padding: 6px 20px;
+}
+
+.leftContent {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 550px;
+}
+
+.disabled {
+	color: #999999;
+	font-family: 'Microsoft regular';
+	font-size: 16px;
+
+}
+
+.rightContent {
+	display: flex;
+	align-items: end;
+	flex-direction: column;
+}
+
+.rightButtons{ 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 250px;
+}
+
+.button {
+	background-color: #EFF0F5;
+	height: fit-content;
+	height: 26px;
+	padding: 6px 12px;;
+	border-radius: 10%;
+	align-content: center;
+	font-family: 'Intel medium';
+	font-size: 14px;
+}
+
+.blueText {
+	color: #4C51FF;
+	font-family: 'Microsoft regular';
+	margin-top: 6px;
+}
