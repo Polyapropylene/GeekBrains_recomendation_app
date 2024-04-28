@@ -48,11 +48,15 @@ export const MainPage = () => {
             placeholder="Введите название программы"
           />
         </div>
-        <CourseCard
-          title="Специалист по внедрению Искусственного Интеллекта"
-          description="Лёгкий путь в Machine Learning и Data Science. Начни внедрять Искусственный Интеллект без кода и математики и зарабатывай уже во время обучения! "
-        />
-        {filterForm}
+        <div className="row">
+          <div className="coursesTiles">
+            <CourseCard
+              title="Специалист по внедрению Искусственного Интеллекта"
+              description="Лёгкий путь в Machine Learning и Data Science. Начни внедрять Искусственный Интеллект без кода и математики и зарабатывай уже во время обучения! "
+            />
+          </div>
+          {filterForm}
+        </div>
       </div>
     </>
   );

@@ -2,3 +2,9 @@
 	font-family: 'Intel medium';
 	src: url('../../assets/FontsFree-Net-Inter-Medium.ttf');
 }
+
+button {
+	background-color: #8D46F6;
+	color: #FFFFFF;
+	
+}

@@ -45,6 +45,12 @@ h1 {
 	font-family: 'Microsoft regular',
 }
 
+.coursesTiles {
+	display: grid;
+	columns: repeat(510px, 2);
+	column-gap: 20px;
+}
+
 .formContainer {
 	display: flex;
 	flex-direction: column;
@@ -59,6 +65,15 @@ h1 {
 .column {
 	display: flex;
 	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-top: 40px;
+	width: 1550px;
+	justify-content: space-between;
 }
 
 .question { font-family: 'Intel medium';
