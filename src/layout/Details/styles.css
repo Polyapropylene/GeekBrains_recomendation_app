@@ -1,0 +1,19 @@
+.mainContainer {
+	background-color: #E9E5F9;
+	height: 100vh;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: row;
+}
+
+.disabledText {
+	color: #999999;
+	font-family: 'Microsoft regular';
+	margin-left: 12px;
+}
+
+.activePage {
+	font-family: 'Microsoft regular';
+}

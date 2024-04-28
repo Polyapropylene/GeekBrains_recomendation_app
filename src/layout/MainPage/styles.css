@@ -13,6 +13,16 @@
 	flex-direction: row;
 }
 
+.disabledText {
+	color: #999999;
+	font-family: 'Microsoft regular';
+	margin-left: 12px;
+}
+
+.activePage {
+	font-family: 'Microsoft regular';
+}
+
 .coursesContainer {
 	margin-left: 15%;
 	display: flex;
@@ -29,8 +39,60 @@ h1 {
 
 .searchInput {
 	height: 50px;
+	border-radius: 12px;
 	border: 1px solid #999999;
 	width: 1100px;
 	font-family: 'Microsoft regular',
-	
+}
+
+.formContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 350px;
+	height: 450px;
+	padding: 30px;
+	border-radius: 8%;
+	border: 1px solid red;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.question { font-family: 'Intel medium';
+	font-size: 24px;
+	font-weight: 100;
+	letter-spacing: 0.5px;
+	margin-bottom: 8px;
+}
+
+.skills {
+	font-family: 'Intel medium';
+	font-size: 20px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+textarea {
+	border-radius: 12px;
+	font-family: 'Intel medium';
+	font-size: 14px;
+	height: 80px;
+}
+
+.primaryButton {
+	background-color: #8D46F6;
+	color: #FFFFFF;
+	border-radius:  12px;
+	height: 40px;
+	font-family: 'Intel medium';
+	font-size: 16px;
+}
+
+.greyText {
+	text-align: center;
+	font-family: 'Intel medium';
+	color: #999999
 }
