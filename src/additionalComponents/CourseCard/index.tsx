@@ -5,9 +5,10 @@ export type CourseCardProps = {
 	title?: string;
 	salary?: string;
 	description?: string;
+	onLinkClick?(): void;
 };
 
-export const CourseCard = ({title, salary, description}: CourseCardProps) => {
+export const CourseCard = ({title, salary, description, onLinkClick}: CourseCardProps) => {
 	const fire = require('../../assets/fire.svg').default;
 	return (
 	<div className='card'>
@@ -24,7 +25,7 @@ export const CourseCard = ({title, salary, description}: CourseCardProps) => {
 				<span className="longevity">Срок обучения: 6 месяцев</span>
 				<span className='orangeText'> <img  src={fire} alt='fire' />Главный тренд года</span>
 			</div>
-			<span className='link'>Подробнее</span>
+			<span className='link' onClick={onLinkClick}>Подробнее</span>
 		</div>
 	</div>)
 };
